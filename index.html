@@ -18,6 +18,7 @@
             nav {
                 background: rgb(239, 80, 41);
                 margin: 0 auto;
+                margin-bottom: 20px;
                 display: flex;
                 padding: 10px;
             }
@@ -68,14 +69,14 @@
     
     <body>
         <!-- All content goes here -->
-        <div> 
+        <div id="all-contents"> 
             <nav>
                 <h1>SLSJayy's player Website</h1>
-                <ul>
-                    <li>
+                <ul id="nav-ul">
+                    <li class="nav-li">
                       <a href="index.html"> Home </a>
                     </li>
-                    <li>
+                    <li class="nav-li">
                       <a href="portfolio.html"> Portfolio </a>
                     </li>
                 </ul>
@@ -83,19 +84,23 @@
     
             <main>
                 <!-- Sidebar section -->
-                <div>
-                    <img src="https://github.com/OperationSpark/first-website-hs-beta/blob/master/img/hallebot.png?raw=true">
+                <div class="sidebar"> 
+                    <img  class="sidebar-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_ShLc4zxgFbUlClOhqGpQgxnuE68-QLGOC2K_9LTV384_zii2">
               </div>
             
                 <!-- Content section -->
+                  <div class="content>
+                  <h2> J'ron </h2>
+                  <p> NPTCC Student </p>
                 <!-- Interests section -->
-<div>
-    <h3>Interests</h3>
-    <ul>
-        <li>Thing 1</li>
-        <li>Thing 2</li>
-        <li>Thing 3</li>
-    </ul>
+                <div id="interests">
+                <h3>Interests</h3>
+                <ul>
+                  <li>football1</li>
+                  <li>basketball</li>
+                  <li>track </li>
+                </ul>
+</div>
 </div>
             </main>
         </div>
